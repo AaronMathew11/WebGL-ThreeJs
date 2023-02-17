@@ -1,0 +1,25 @@
+{
+  "name": "vid-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "extends": "@parcel/config-default",
+  "resolvers": [
+    "@parcel/resolver-glob",
+    "..."
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@parcel/resolver-glob": "^2.8.3",
+    "dat.gui": "^0.7.9",
+    "three": "^0.149.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
